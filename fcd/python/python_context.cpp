@@ -74,7 +74,7 @@ namespace
 		{
 		}
 		
-		virtual const char* getPassName() const override
+		virtual StringRef getPassName() const override
 		{
 			return name.c_str();
 		}
@@ -96,7 +96,7 @@ namespace
 		{
 		}
 		
-		virtual const char* getPassName() const override
+		virtual StringRef getPassName() const override
 		{
 			return name.c_str();
 		}
